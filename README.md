@@ -1,0 +1,196 @@
+🚀 Customer Segmentation using Unsupervised Machine Learning
+📌 Capstone Project: Advanced Customer Segmentation
+________________________________________
+🎯 Project Overview
+Customer segmentation is a critical component of modern data-driven businesses. This project leverages unsupervised machine learning techniques to segment customers based on transactional and behavioural data.
+The goal is to uncover hidden patterns and transform raw data into actionable business insights that improve:
+•	Marketing strategies 
+•	Customer retention 
+•	Revenue generation 
+________________________________________
+❗ Problem Statement
+Organizations often struggle to understand their customers due to lack of labeled data. This leads to:
+•	Inefficient marketing campaigns 
+•	Poor targeting of high-value customers 
+•	Increased customer churn 
+✅ Solution Approach
+This project solves the problem by:
+•	Identifying meaningful customer segments 
+•	Analyzing purchasing behavior 
+•	Enabling data-driven decision making 
+________________________________________
+📊 Dataset Description
+Dataset: Retail Transaction Dataset
+Features:
+•	Customer ID 
+•	Product ID 
+•	Quantity 
+•	Price 
+•	Total Amount 
+•	Transaction Date 
+•	Payment Method 
+•	Store Location 
+•	Product Category 
+•	Discount 
+🔧 Feature Engineering
+•	Recency (R): Days since last purchase 
+•	Frequency (F): Number of transactions 
+•	Monetary (M): Total spending 
+•	Average Transaction Value 
+•	Customer Lifetime Value (CLV) 
+________________________________________
+⚙️ Machine Learning Lifecycle
+1️⃣ Data Preprocessing
+•	Handling missing values 
+•	Outlier detection & treatment 
+•	Encoding categorical variables 
+•	Feature scaling (StandardScaler) 
+________________________________________
+2️⃣ Exploratory Data Analysis (EDA)
+•	Univariate, bivariate, multivariate analysis 
+•	Distribution plots 
+•	Correlation heatmaps 
+•	Pattern discovery 
+________________________________________
+3️⃣ Feature Engineering
+•	RFM analysis 
+•	Behavioral feature extraction 
+•	Derived metrics (CLV, avg spend) 
+________________________________________
+🤖 Clustering Algorithms Implemented
+•	✅ K-Means Clustering 
+•	✅ Hierarchical Clustering 
+•	✅ DBSCAN 
+•	✅ Gaussian Mixture Model (GMM) 
+________________________________________
+📊 Sample Visualizations
+🔹 K-Means Clustering
+  
+🔹 DBSCAN Clustering
+
+  
+________________________________________
+📉 Cluster Optimization
+Evaluation techniques used:
+•	Elbow Method 
+•	Silhouette Score 
+•	Davies-Bouldin Index 
+👉 Final Decision: K = 4 clusters
+✔ Reason:
+•	Best silhouette score 
+•	Clear cluster separation 
+•	Business interpretability 
+________________________________________
+📉 Dimensionality Reduction
+•	PCA (Principal Component Analysis) 
+•	Reduced high-dimensional data into 2D 
+•	Enabled visualization of clusters 
+________________________________________
+🧠 Model Comparison
+Model	Performance
+K-Means	⭐ Best
+GMM	Good
+Hierarchical	Moderate
+DBSCAN	Poor (noise-heavy)
+👉 Selected Model: K-Means Clustering
+________________________________________
+📈 Customer Segments
+🟢 Cluster 0 – High-Value Customers
+•	High spending 
+•	Frequent purchases 
+👉 Strategy: Loyalty programs, premium offers
+________________________________________
+🔵 Cluster 1 – Budget Customers
+•	Low spending 
+•	Price-sensitive 
+👉 Strategy: Discounts, bundle offers
+________________________________________
+🔴 Cluster 2 – At-Risk Customers
+•	Low engagement 
+•	High churn probability 
+👉 Strategy: Retention campaigns
+________________________________________
+🟡 Cluster 3 – New Customers
+•	Recent activity 
+•	Moderate spending 
+👉 Strategy: Onboarding & engagement
+________________________________________
+💡 Business Insights
+•	💰 Cluster 0 generates maximum revenue 
+•	⚠️ Cluster 2 has highest churn risk 
+•	📊 Cluster 1 responds well to discounts 
+•	🚀 Cluster 3 has growth potential 
+👉 Enables:
+•	Personalized marketing 
+•	Better retention strategies 
+•	Increased profitability 
+________________________________________
+🚀 Advanced Techniques
+🔍 Feature Importance
+Key drivers of segmentation:
+•	Total spending 
+•	Purchase frequency 
+•	Customer activity 
+________________________________________
+💰 Customer Lifetime Value (CLV)
+CLV = Total Spend × Frequency
+👉 Insights:
+•	High-value customers have highest CLV 
+•	At-risk customers show declining CLV 
+________________________________________
+📁 Project Structure
+customer-segmentation-unsupervised-juber/
+
+customer-segmentation-unsupervised-juber/
+│
+├── data/
+│   ├── raw/
+│   │   └── retail_transactions.csv          # Original dataset (no changes)
+│   │
+│   ├── processed/
+│       ├── cleaned_data.csv                 # After preprocessing
+│       └── rfm_features.csv                 # After feature engineering
+│
+├── notebooks/
+│   ├── 01_data_preprocessing.ipynb          # Cleaning + missing values + outliers
+│   ├── 02_eda.ipynb                         # Data analysis + plots
+│   ├── 03_feature_engineering.ipynb         # RFM + derived features
+│   ├── 04_clustering_models.ipynb           # KMeans, GMM, etc.
+│   ├── 05_model_comparison.ipynb            # Metrics comparison
+│   ├── 06_visualization.ipynb               # PCA + cluster plots
+│
+├── src/
+│   ├── data_preprocessing.py                # Data cleaning functions
+│   ├── feature_engineering.py               # RFM + feature creation
+│   │
+│   ├── clustering/
+│   │   ├── kmeans.py                        # K-Means model
+│   │   ├── hierarchical.py                  # Hierarchical model
+│   │   ├── dbscan.py                        # DBSCAN model
+│   │   └── gmm.py                           # Gaussian Mixture Model
+│   │
+│   ├── evaluation.py                        # Silhouette, DB Index
+│   └── utils.py                             # Helper functions (plots, save files)
+│
+├── results/
+│   ├── cluster_plots/
+│   │   
+│   ├── pca_outputs/              
+│   │
+│   ├── metrics/
+│   |
+├── reports/
+│   ├── final_report.pdf
+│   └── presentation.pptx
+│
+├── requirements.txt
+├── README.md
+└── main.py
+________________________________________
+▶️ How to Run the Project
+git clone https://github.com/Mastani9680/customer-segmentation-unsupervised-
+cd customer-segmentation-unsupervised
+
+pip install -r requirements.txt
+python main.py
+
