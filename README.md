@@ -213,7 +213,7 @@ customer-segmentation-unsupervised-mastani/
 └── main.py
 ________________________________________
 ▶️ How to Run the Project
-git clone https://github.com/Mastani9680/customer-segmentation-unsupervised-
+git clone https://github.com/Mastani9680/customer-segmentation-unsupervised
 cd customer-segmentation-unsupervised
 
 pip install -r requirements.txt
