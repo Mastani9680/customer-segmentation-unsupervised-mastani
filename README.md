@@ -23,6 +23,7 @@ This project solves the problem by:
 •	Enabling data-driven decision making 
 ________________________________________
 📊 Dataset Description
+
 Dataset: Retail Transaction Dataset
 Features:
 •	Customer ID 
@@ -36,6 +37,7 @@ Features:
 •	Product Category 
 •	Discount 
 🔧 Feature Engineering
+
 •	Recency (R): Days since last purchase 
 •	Frequency (F): Number of transactions 
 •	Monetary (M): Total spending 
@@ -43,6 +45,7 @@ Features:
 •	Customer Lifetime Value (CLV) 
 ________________________________________
 ⚙️ Machine Learning Lifecycle
+
 1️⃣ Data Preprocessing
 •	Handling missing values 
 •	Outlier detection & treatment 
@@ -67,7 +70,9 @@ ________________________________________
 •	✅ Gaussian Mixture Model (GMM) 
 ________________________________________
 📊 Sample Visualizations
+
 🔹 K-Means Clustering
+
   <img width="640" height="480" alt="kmeans" src="https://github.com/user-attachments/assets/517bdff4-55d1-45c6-bd24-196019a515c2" />
 
 🔹 DBSCAN Clustering
@@ -159,9 +164,9 @@ CLV = Total Spend × Frequency
 ________________________________________
 📁 Project Structure
 
-customer-segmentation-unsupervised-juber/
+customer-segmentation-unsupervised-mastani/
 
-customer-segmentation-unsupervised-juber/
+customer-segmentation-unsupervised-mastani/
 │
 ├── data/
 │   ├── raw/
