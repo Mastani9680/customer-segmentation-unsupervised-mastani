@@ -67,10 +67,12 @@ ________________________________________
 ________________________________________
 📊 Sample Visualizations
 🔹 K-Means Clustering
-  
+  <img width="640" height="480" alt="kmeans" src="https://github.com/user-attachments/assets/517bdff4-55d1-45c6-bd24-196019a515c2" />
+
 🔹 DBSCAN Clustering
 
-  
+  <img width="640" height="480" alt="dbscan" src="https://github.com/user-attachments/assets/0f53fb1c-f5eb-4004-83ba-3ee61a6447f2" />
+
 ________________________________________
 📉 Cluster Optimization
 Evaluation techniques used:
