@@ -2,6 +2,7 @@
 📌 Capstone Project: Advanced Customer Segmentation
 ________________________________________
 🎯 Project Overview
+
 Customer segmentation is a critical component of modern data-driven businesses. This project leverages unsupervised machine learning techniques to segment customers based on transactional and behavioural data.
 The goal is to uncover hidden patterns and transform raw data into actionable business insights that improve:
 •	Marketing strategies 
@@ -9,6 +10,7 @@ The goal is to uncover hidden patterns and transform raw data into actionable bu
 •	Revenue generation 
 ________________________________________
 ❗ Problem Statement
+
 Organizations often struggle to understand their customers due to lack of labeled data. This leads to:
 •	Inefficient marketing campaigns 
 •	Poor targeting of high-value customers 
