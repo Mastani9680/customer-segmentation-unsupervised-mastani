@@ -1,5 +1,6 @@
-🚀 Customer Segmentation using Unsupervised Machine Learning
-📌 Capstone Project: Advanced Customer Segmentation
+**🚀 Customer Segmentation using Unsupervised Machine Learning**
+
+**📌 Capstone Project: Advanced Customer Segmentation**
 ________________________________________
 🎯 Project Overview
 
@@ -75,6 +76,7 @@ ________________________________________
 
 ________________________________________
 📉 Cluster Optimization
+
 Evaluation techniques used:
 •	Elbow Method 
 •	Silhouette Score 
@@ -86,19 +88,25 @@ Evaluation techniques used:
 •	Business interpretability 
 ________________________________________
 📉 Dimensionality Reduction
+
 •	PCA (Principal Component Analysis) 
 •	Reduced high-dimensional data into 2D 
 •	Enabled visualization of clusters 
 ________________________________________
 🧠 Model Comparison
-Model	Performance
-K-Means	⭐ Best
-GMM	Good
-Hierarchical	Moderate
-DBSCAN	Poor (noise-heavy)
+## 🧠 Model Comparison
+
+| Model          | Performance        | Silhouette Score | Remarks                                      |
+|----------------|-------------------|------------------|----------------------------------------------|
+| **K-Means**    | ⭐ **Best**        | Highest          | Well-separated clusters, highly scalable     |
+| **GMM**        | Good              | Slightly lower   | Handles overlapping clusters effectively     |
+| **Hierarchical** | Moderate        | Moderate         | Useful for hierarchy but less scalable       |
+| **DBSCAN**     | Poor              | Low / Unstable   | High noise, not suitable for this dataset    |
+
 👉 Selected Model: K-Means Clustering
 ________________________________________
 📈 Customer Segments
+
 🟢 Cluster 0 – High-Value Customers
 •	High spending 
 •	Frequent purchases 
@@ -120,29 +128,37 @@ ________________________________________
 👉 Strategy: Onboarding & engagement
 ________________________________________
 💡 Business Insights
+
 •	💰 Cluster 0 generates maximum revenue 
 •	⚠️ Cluster 2 has highest churn risk 
 •	📊 Cluster 1 responds well to discounts 
-•	🚀 Cluster 3 has growth potential 
+•	🚀 Cluster 3 has growth potential
+
 👉 Enables:
+
 •	Personalized marketing 
 •	Better retention strategies 
 •	Increased profitability 
 ________________________________________
 🚀 Advanced Techniques
 🔍 Feature Importance
+
 Key drivers of segmentation:
+
 •	Total spending 
 •	Purchase frequency 
 •	Customer activity 
 ________________________________________
 💰 Customer Lifetime Value (CLV)
+
 CLV = Total Spend × Frequency
 👉 Insights:
+
 •	High-value customers have highest CLV 
 •	At-risk customers show declining CLV 
 ________________________________________
 📁 Project Structure
+
 customer-segmentation-unsupervised-juber/
 
 customer-segmentation-unsupervised-juber/
