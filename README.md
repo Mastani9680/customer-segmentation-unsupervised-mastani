@@ -91,8 +91,11 @@ Evaluation techniques used:
 •	Elbow Method 
 •	Silhouette Score 
 •	Davies-Bouldin Index 
+
 👉 Final Decision: K = 4 clusters
+
 ✔ Reason:
+
 •	Best silhouette score 
 •	Clear cluster separation 
 •	Business interpretability 
